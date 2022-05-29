@@ -27,7 +27,7 @@ prompt walters
 export GOPATH=$HOME/.local/go
 
 typeset -U path PATH
-path=($GOPATH/bin ~/Scripts ~/.local/bin $path ~/go/bin /usr/local/go/bin)
+path=($GOPATH/bin ~/Scripts ~/.local/bin ~/.cargo/bin /usr/local/go/bin $path )
 export PATH
 
 autoload -Uz run-help
@@ -42,6 +42,7 @@ alias vrc='$EDITOR $HOME/.config/nvim/'
 alias tmp='cd /tmp'
 
 alias auau='sudo apt-get update && sudo apt-get upgrade'
+alias ua='sudo apt-get update && sudo apt-get upgrade && sudo snap refresh'
 alias '?'='webq --browser=lynx'
 
 alias jargon='dict --database=jargon'
