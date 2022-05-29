@@ -57,6 +57,3 @@ export PATH="$PATH:$HOME/.rvm/bin"
 bindkey '^[[1;5C' forward-word
 bindkey '^[[1;5D' backward-word
 
-# completions
-
-#eval "$(_NETZ_COMPLETE=zsh_source netz)"
