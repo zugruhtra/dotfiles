@@ -87,3 +87,6 @@ vim.opt.mouse = 'a'
 
 -- FZF
 vim.g.fzf_preview_window = {'--layout=reverse'}
+
+-- netrw
+vim.g.netrw_banner = 0
