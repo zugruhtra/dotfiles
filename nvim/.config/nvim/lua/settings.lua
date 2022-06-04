@@ -75,7 +75,6 @@ vim.opt.wildignore = '.svn,CVS,.git,.hg,*.o,*.a,*.class,*.so,*.swp,*.jpg,*.png,*
 
 -- Theme
 vim.opt.background = 'dark'
-vim.cmd('colorscheme gruvbox')
 
 
 -- Misc.
