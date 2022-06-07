@@ -5,6 +5,7 @@ STOW_FOLDERS=(
     nvim
     zsh
     tmux
+    alacritty
 )
 
 for folder in "${STOW_FOLDERS[@]}"
