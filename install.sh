@@ -4,6 +4,7 @@ TARGET_DIR=$HOME
 STOW_FOLDERS=(
     nvim
     zsh
+    tmux
 )
 
 for folder in "${STOW_FOLDERS[@]}"
