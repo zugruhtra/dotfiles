@@ -57,3 +57,4 @@ export PATH="$PATH:$HOME/.rvm/bin"
 bindkey '^[[1;5C' forward-word
 bindkey '^[[1;5D' backward-word
 
+source /etc/zsh_command_not_found
